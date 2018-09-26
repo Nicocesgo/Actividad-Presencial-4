@@ -29,7 +29,7 @@ body{
 
 /*Barra de navegación*/
 
-.navbar{
+.navbar0{
   width: 250px;
   height: 50px;
   position: absolute;
@@ -37,11 +37,11 @@ body{
   right: 160px;
 }
 
-#navbar{
+#navbar2{
   list-style-type: none;
 }
 
-.navbar1{
+.navbar3{
   float: left;
   margin-right: 20px;
   color: silver;
@@ -49,11 +49,12 @@ body{
 
 /*Comienza una nueva...*/
 .titulo{
+  width: 100%;
   height: 200px;
   color: white;
   text-align: center;
   position: absolute;
   top: 100px;
-  margin: auto 360px;
+
   font-size: 20px
 }
