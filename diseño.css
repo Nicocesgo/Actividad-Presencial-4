@@ -15,12 +15,19 @@ body{
 /*Logo Latam*/
 .latam{
   width: 50%;
-  height: 50px;
-  position: absolute;
-  top:40px;
-  left: 210px;
+  height: 100px;
   float: left;
   box-sizing: border-box;
+  position: relative;
+  top: 0px;
+}
+
+.logo{
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  top: 45px;
+  left: 210px;
 }
 
 #latamlogo{
@@ -29,19 +36,28 @@ body{
 
 /*Barra de navegación*/
 
-.navbar{
-  width: 250px;
-  height: 50px;
-  position: absolute;
-  top:23px;
-  right: 160px;
-}
-
-#navbar{
-  list-style-type: none;
+.navbar0{
+  width: 50%;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
 }
 
 .navbar1{
+  height: 100px;
+  position: absolute;
+  top: 25px;
+  right: 160px;
+
+}
+
+#navbar2{
+  list-style-type: none;
+}
+
+.navbar3{
   float: left;
   margin-right: 20px;
   color: silver;
@@ -49,11 +65,231 @@ body{
 
 /*Comienza una nueva...*/
 .titulo{
+  width: 100%;
   height: 200px;
   color: white;
   text-align: center;
   position: absolute;
   top: 100px;
-  margin: auto 360px;
+
   font-size: 20px
+}
+
+/*botón Comienza Acá*/
+.comienza0{
+  width: 52%;
+  height: 50px;
+  float: left;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 120px
+}
+
+.comienza1{
+  width: 22%;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #0044ff;
+  border-radius: 10px;
+  position: absolute;
+  right: 2px;
+  top: 2px
+}
+
+#comienza2{
+  width: 100%;
+  height: 40px;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 4px
+}
+
+/*Botón más info*/
+
+.info0{
+  width: 48%;
+  height: 50px;
+  float: right;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 120px;
+  right:0px
+}
+
+.info1{
+  width: 15%;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #00cc44;
+  border-radius: 10px;
+  position: absolute;
+  left: 4px;
+  top: 2px
+}
+
+#info2{
+  width: 100%;
+  height: 40px;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 4px
+}
+
+/*Párrafo Hay una escasez*/
+.parrafo0{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 70px;
+  text-align: center;
+}
+
+#parrafo1{
+  position: relative;
+  bottom: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+
+/*Parte 2*/
+.parte2{
+  height: 450px;
+  position: relative;
+  top: 20px;
+}
+
+/*Título y párrafo*/
+.titulo2{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: 20px
+}
+
+/*Imagen parte2*/
+.personas{
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  bottom: 0px
+}
+
+#personas1{
+  height: 100%;
+  margin: auto 38%;
+  position: absolute;
+  bottom: 0px;
+}
+
+/*parte3*/
+.parte3{
+  width: 100%;
+  height: 320px;
+  background-color: #eeeeee;
+  border-top: solid 1px #aaaaaa;
+  border-bottom: solid 1px #aaaaaa;
+  box-sizing: border-box;
+  position: relative;
+  top: 20px
+}
+
+.titulo3{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: 45px
+}
+
+.inscribite0{
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #0044ff;
+  border-radius: 10px;
+  position: relative;
+  margin: 100px auto;
+}
+
+#inscribite1{
+  width: 100%;
+  height: 40px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 10px
+}
+
+.ulparrafo{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  bottom: 60px;
+}
+
+/*parte4*/
+
+.parte4{
+  width: 100%;
+  height: 250px;
+  box-sizing: border-box;
+  position: relative;
+  top: 20px;
+}
+
+.contacto0{
+  width: 40%;
+  height: 250px;
+  position: relative;
+  top: 40px;
+  left: 290px;
+  font-size: 14px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.suscripción0{
+  width: 60%;
+  height: 250px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  font-size: 14px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#titable{
+  text-align: left;
+}
+
+#cotable{
+  color: #0077ff
+}
+
+/*parte5*/
+
+.parte5{
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: black;
+  position: relative;
+  bottom: 0px;
+}
+
+#foot{
+  color: #aaaaaa;
+  font-size: 18px;
+  position: absolute;
+  left: 150px;
+  bottom: 4px;
 }
